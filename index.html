@@ -1,0 +1,802 @@
+<!doctype html>
+<html lang = "ar" dir = "rtl">
+<head>
+<meta charset = "utf-8" / >
+<meta name = "viewport" content = "width=device-width, initial-scale=1, maximum-scale=1" / >
+<title>SKIN1004 Madagascar Centella Soothing Cream | كريم مهدئ وترطيب 75ml< / title>
+
+<meta name = "description" content = "كريم جل مهدئ من SKIN1004 بسنتيلا مدغشقر لترطيب وتهدئة وتقوية حاجز البشرة. قوام خفيف غير لزج، مناسب للبشرة الحساسة." / >
+<meta name = "theme-color" content = "#CBB892" / >
+
+<meta property = "og:type" content = "product" / >
+<meta property = "og:title" content = "SKIN1004 Madagascar Centella Soothing Cream | كريم مهدئ وترطيب 75ml" / >
+<meta property = "og:description" content = "جل كريم مهدئ سريع الامتصاص لترطيب وتهدئة وتقوية حاجز البشرة. مناسب للحساسة والعادية." / >
+<meta property = "og:image" content = "https://i.postimg.cc/Dw0VfhH4/7ef0440a1bad497828ca52bd3392ef3b.jpg" / >
+
+<link rel = "preconnect" href = "https://fonts.googleapis.com">
+<link rel = "preconnect" href = "https://fonts.gstatic.com" crossorigin>
+<link href = "https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&display=swap" rel = "stylesheet">
+
+<style>
+    :root{
+    /* Warm sand + centella sage (matches product vibe) */
+    --bg0:#FBF7F0;
+    --bg1:#FFFFFF;
+
+    --ink:#101828;
+    --muted:#5E6676;
+
+    --sand:#CBB892;
+    --sand2:#E8DDC9;
+    --sage:#8AA08C;
+    --sage2:#D9E6DC;
+
+    --glass: rgba(255,255,255,.78);
+    --stroke: rgba(16,24,40,.10);
+
+    --ok:#16a34a;
+    --warn:#f59e0b;
+
+    --shadow: 0 18px 60px rgba(16,24,40,.12);
+    --shadow2: 0 10px 26px rgba(16,24,40,.10);
+
+    --radius: 20px;
+    --radius2: 26px;
+    --max: 1120px;
+}
+
+* {box - sizing:border - box}
+html, body{ height:100 % }
+body{
+  margin : 0;
+  font - family:"Cairo", system - ui, -apple - system, Segoe UI, Roboto, Arial, sans - serif;
+  color:var(--ink);
+  background:
+    radial - gradient(1100px 700px at 10 % 8 %, rgba(203,184,146,.30), transparent 55 %),
+    radial - gradient(900px 600px at 90 % 12 %, rgba(138,160,140,.18), transparent 55 %),
+    linear - gradient(180deg, var(--bg0), var(--bg1) 55 %, var(--bg0));
+  overflow - x:hidden;
+}
+
+a{ color:inherit }
+.wrap{ max - width:var(--max); margin:auto; padding:18px 14px 80px }
+
+/* ✅ Topbar ثابت */
+.topbar{
+  display:flex; align - items:center; justify - content:space - between;
+  gap:12px;
+  padding:10px 12px;
+  border:1px solid var(--stroke);
+  border - radius:999px;
+  background:rgba(255,255,255,.78);
+  backdrop - filter: blur(10px);
+  box - shadow: 0 10px 26px rgba(16,24,40,.06);
+  position:sticky; top:10px; z - index:40;
+}
+.brandMark{ display:flex; align - items:center; gap:10px; font - weight:900; letter - spacing:.2px }
+.dot{
+  width:12px; height:12px; border - radius:999px;
+  background:linear - gradient(135deg, var(--sage), var(--sand));
+  box - shadow:0 0 0 6px rgba(203,184,146,.25);
+  flex:0 0 auto;
+}
+.pill{ display:flex; align - items:center; gap:8px; flex - wrap:wrap; font - size:13px; color:var(--muted) }
+.badge{
+  display:inline - flex; align - items:center; gap:8px;
+  padding:7px 10px;
+  border - radius:999px;
+  border:1px solid var(--stroke);
+  background:linear - gradient(180deg, rgba(255,255,255,.92), rgba(255,255,255,.62));
+  box - shadow: 0 12px 30px rgba(16,24,40,.08);
+  font - size:13px;
+  white - space:nowrap;
+}
+.badge.tick{
+  width:18px; height:18px; border - radius:6px;
+  background:rgba(22,163,74,.12);
+  display:grid; place - items:center;
+  color:var(--ok);
+  font - weight:900;
+  border:1px solid rgba(22,163,74,.22);
+}
+
+/* HERO */
+.hero{
+  margin - top:14px;
+  border - radius:var(--radius2);
+  background:
+    radial - gradient(900px 520px at 18 % 18 %, rgba(203,184,146,.32), transparent 58 %),
+    radial - gradient(900px 520px at 92 % 16 %, rgba(138,160,140,.18), transparent 60 %),
+    linear - gradient(180deg, rgba(255,255,255,.90), rgba(255,255,255,.66));
+  border:1px solid var(--stroke);
+  box - shadow: var(--shadow);
+  overflow:hidden;
+  position:relative;
+}
+.hero::before{
+  content:"";
+  position:absolute; inset:-2px;
+  background:
+    radial - gradient(600px 220px at 20 % 0 %, rgba(203,184,146,.28), transparent 55 %),
+    radial - gradient(600px 220px at 80 % 0 %, rgba(138,160,140,.18), transparent 55 %);
+  pointer - events:none;
+}
+.heroInner{
+  position:relative;
+  padding:18px 16px 14px;
+  display:grid;
+  gap:14px;
+}
+.kicker{
+  display:flex; align - items:center; gap:10px; flex - wrap:wrap;
+  color:var(--muted);
+  font - size:13px;
+}
+.kicker.chip{
+  display:inline - flex; align - items:center; gap:8px;
+  padding:6px 10px;
+  border - radius:999px;
+  border:1px solid var(--stroke);
+  background:rgba(255,255,255,.75);
+  backdrop - filter: blur(8px);
+  font - weight:800;
+  color:var(--ink);
+}
+.kicker.chip span{ color:var(--muted); font - weight:700 }
+
+h1{ margin : 0; font - size:26px; line - height:1.25; letter - spacing:.2px }
+.sub{ margin : 0; color:var(--muted); line - height:1.95; font - size:15px }
+
+.heroGrid{ display:grid; gap:14px }
+@media(min - width: 980px) {
+    .heroInner{ padding:22px 22px 18px }
+    .heroGrid{ grid - template - columns: 1.05fr .95fr; align - items:start }
+        h1{ font - size:34px }
+        .sub{ font - size:16px }
+}
+
+/* PRICE CARD (وفيه ليه تشتري + badges جوه نفس الكارت) */
+.priceCard{
+  display:grid; gap:12px;
+  padding:12px;
+  border - radius:18px;
+  border:1px solid var(--stroke);
+  background:rgba(255,255,255,.82);
+  backdrop - filter: blur(10px);
+  box - shadow: var(--shadow2);
+}
+.prices{
+  display:flex; align - items:baseline; justify - content:space - between; gap:12px;
+  flex - wrap:wrap;
+}
+.now{ display:flex; align - items:baseline; gap:10px; flex - wrap:wrap }
+.now.val{ font - size:28px; font - weight:950 }
+.now.cur{ font - weight:900; color:var(--muted) }
+.old{ color:var(--muted); text - decoration:line - through; font - weight:800; font - size:14px }
+
+.save{
+  display:flex; align - items:center; gap:8px; flex - wrap:wrap;
+  font - size:13px; color:var(--muted);
+}
+.save.hot{
+  display:inline - flex; align - items:center; gap:8px;
+  padding:6px 10px;
+  border - radius:999px;
+  background:rgba(245,158,11,.12);
+  border:1px solid rgba(245,158,11,.22);
+  color:#9a5a00;
+  font - weight:950;
+}
+
+.miniGrid{
+  display:grid; gap:10px;
+  grid - template - columns: repeat(2, 1fr);
+}
+@media(min - width: 560px) {
+    .miniGrid{ grid - template - columns: repeat(4, 1fr); }
+}
+.mini{
+  border:1px solid var(--stroke);
+  border - radius:16px;
+  padding:10px;
+  background:linear - gradient(180deg, rgba(255,255,255,.92), rgba(255,255,255,.68));
+  text - align:center;
+  font - size:13px;
+  font - weight:850;
+}
+.mini span{ display:block; font - size:12px; font - weight:700; color:var(--muted); margin - top:4px }
+
+.whyInPrice{
+  border:1px solid var(--stroke);
+  border - radius:18px;
+  padding:12px;
+  background:linear - gradient(180deg, rgba(217,230,220,.30), rgba(255,255,255,.78));
+}
+.whyInPrice h3{
+  margin:0 0 8px;
+  font - size:15px;
+  letter - spacing:.2px;
+}
+.whyList{
+  margin : 0; padding:0 18px 0 0;
+  color:var(--muted);
+  line - height:1.9;
+  font - size:13px;
+}
+.whyList li{ margin:6px 0 }
+
+/* SECTION */
+.section{
+  margin - top:14px;
+  border - radius:var(--radius2);
+  border:1px solid var(--stroke);
+  box - shadow: var(--shadow2);
+  overflow:hidden;
+  background:rgba(255,255,255,.80);
+  backdrop - filter: blur(10px);
+}
+.sectionHeader{
+  padding:14px 14px 0;
+  display:flex; align - items:flex - end; justify - content:space - between; gap:12px;
+  flex - wrap:wrap;
+}
+.sectionHeader h2{ margin : 0; font - size:18px; letter - spacing:.2px }
+.sectionHeader p{ margin : 0; color:var(--muted); font - size:13px }
+.sectionBody{ padding:14px }
+
+.toneA{ background:linear - gradient(180deg, rgba(203,184,146,.18), rgba(255,255,255,.84)) }
+.toneB{ background:linear - gradient(180deg, rgba(138,160,140,.12), rgba(255,255,255,.84)) }
+.toneC{ background:linear - gradient(180deg, rgba(232,221,201,.30), rgba(255,255,255,.84)) }
+
+/* GALLERY */
+.gallery{ display:grid; gap:12px }
+.mainShot{
+  position:relative;
+  border - radius:22px;
+  border:1px solid var(--stroke);
+  overflow:hidden;
+  background:linear - gradient(180deg, rgba(255,255,255,.92), rgba(255,255,255,.70));
+  box - shadow: 0 16px 40px rgba(16,24,40,.10);
+  cursor: zoom - in;
+  min - height: 260px;
+  display:grid;
+  place - items:center;
+}
+.mainShot img{ width:100 %; height:100 %; object - fit:cover; display:block }
+.mainHint{
+  position:absolute;
+  left:12px; top:12px;
+  display:inline - flex; align - items:center; gap:8px;
+  padding:8px 10px;
+  border - radius:999px;
+  background:rgba(255,255,255,.82);
+  border:1px solid var(--stroke);
+  color:var(--muted);
+  font - size:12px;
+  backdrop - filter: blur(10px);
+  z - index:2;
+}
+
+.thumbs{
+  display:grid;
+  grid - template - columns: repeat(4, 1fr);
+  gap:10px;
+}
+@media(min - width: 560px) {
+    .thumbs{ grid - template - columns: repeat(6, 1fr); }
+}
+.thumb{
+  border - radius:16px;
+  border:1px solid var(--stroke);
+  overflow:hidden;
+  background:#fff;
+  cursor:pointer;
+  position:relative;
+  aspect - ratio: 1 / 1;
+  display:grid;
+  place - items:center;
+  user - select:none;
+}
+.thumb img{ width:100 %; height:100 %; object - fit:cover; display:block }
+.thumb[aria - current = "true"]{
+  outline: 3px solid rgba(138,160,140,.55);
+  border - color: rgba(138,160,140,.45);
+}
+
+/* CONTENT GRID */
+.grid2{ display:grid; gap:12px }
+@media(min - width: 900px) {
+    .grid2{ grid - template - columns: 1fr 1fr; }
+}
+.card{
+  border:1px solid var(--stroke);
+  border - radius:20px;
+  background:rgba(255,255,255,.84);
+  padding:12px;
+}
+.list{ margin : 0; padding:0 18px 0 0; color:var(--muted); line - height:1.95; font - size:14px }
+.list li{ margin:8px 0 }
+
+/* FAQ (Accordion + / -) */
+details{
+  border:1px solid var(--stroke);
+  border - radius:18px;
+  background:rgba(255,255,255,.88);
+  padding:10px 12px;
+  margin:10px 0;
+  box - shadow: 0 10px 26px rgba(16,24,40,.06);
+}
+summary{
+  cursor:pointer;
+  list - style:none;
+  display:flex; align - items:center; justify - content:space - between; gap:10px;
+  font - weight:900;
+}
+summary:: - webkit - details - marker{ display:none }
+.faqIcon{
+  width:34px; height:34px;
+  border - radius:12px;
+  border:1px solid var(--stroke);
+  background:rgba(232,221,201,.35);
+  display:grid; place - items:center;
+  font - size:18px;
+  color:var(--muted);
+  flex:0 0 auto;
+}
+details:not([open]).faqIcon::before{ content:"+"; }
+details[open].faqIcon::before{ content:"-"; }
+.detailBody{ margin - top:10px; color:var(--muted); line - height:1.95; font - size:14px }
+
+/* REVIEWS (مش Accordion) */
+.reviewsGrid{
+  display:grid; gap:12px;
+  grid - template - columns: 1fr;
+}
+@media(min - width: 760px) {
+    .reviewsGrid{ grid - template - columns: 1fr 1fr; }
+}
+@media(min - width: 1080px) {
+    .reviewsGrid{ grid - template - columns: 1fr 1fr 1fr; }
+}
+.review{
+  border:1px solid var(--stroke);
+  border - radius:18px;
+  background:rgba(255,255,255,.88);
+  padding:12px;
+  box - shadow: 0 10px 26px rgba(16,24,40,.06);
+}
+.rTop{
+  display:flex; align - items:center; justify - content:space - between; gap:10px;
+  margin - bottom:8px;
+}
+.stars{ font - weight:950 }
+.rName{ color:var(--muted); font - size:12px; font - weight:800 }
+.rText{ margin : 0; color:var(--muted); line - height:1.9; font - size:13px }
+
+/* LIGHTBOX */
+.lb{
+  position:fixed; inset : 0;
+  background:rgba(10,15,25,.62);
+  display:none; align - items:center; justify - content:center;
+  z - index:80; padding:18px;
+}
+.lb.open{ display:flex }
+.lbBox{
+  max - width:min(980px, 96vw);
+  width:100 %;
+  border - radius:24px;
+  overflow:hidden;
+  border:1px solid rgba(255,255,255,.18);
+  background:rgba(255,255,255,.06);
+  backdrop - filter: blur(14px);
+  box - shadow: 0 24px 90px rgba(0,0,0,.35);
+  position:relative;
+}
+.lbImg{ width:100 %; height:auto; display:block; background:#fff }
+.lbClose{
+  position:absolute; top:10px; left:10px;
+  width:44px; height:44px;
+  border - radius:16px;
+  border:1px solid rgba(255,255,255,.22);
+  background:rgba(255,255,255,.12);
+  color:#fff; font - size:22px;
+  display:grid; place - items:center;
+  cursor:pointer;
+}
+.lbNav{
+  position:absolute; top:50 %;
+  transform:translateY(-50 %);
+  width:48px; height:48px;
+  border - radius:18px;
+  border:1px solid rgba(255,255,255,.22);
+  background:rgba(255,255,255,.12);
+  color:#fff; font - size:22px;
+  display:grid; place - items:center;
+  cursor:pointer; user - select:none;
+}
+.lbPrev{ right:10px }
+.lbNext{ left:10px }
+
+footer{
+  margin - top:14px;
+  text - align:center;
+  color:var(--muted);
+  font - size:12px;
+  padding:14px 6px;
+  opacity:.95;
+}
+< / style>
+< / head>
+
+<body>
+<div class = "wrap">
+<div class = "topbar" aria - label = "Top bar">
+<div class = "brandMark">
+<span class = "dot" aria - hidden = "true">< / span>
+<span>To You< / span>
+< / div>
+<div class = "pill">
+<span class = "badge"><span class = "tick">✓< / span> أصلي 100 % < / span>
+<span class = "badge">🫧 تنظيف لطيف< / span>
+<span class = "badge">🌿 بدون عطر< / span>
+<span class = "badge">⚖️ pH منخفض< / span>
+< / div>
+< / div>
+
+<section class = "hero" aria - label = "Hero">
+<div class = "heroInner">
+<div class = "kicker">
+<span class = "chip">SKIN1004 <span>•< / span> Korea 🇰🇷< / span>
+<span class = "chip">Madagascar <span>•< / span> Centella< / span>
+<span class = "chip">Soothing Cream <span>• < / span> 75ml< / span>
+< / div>
+
+<div class = "heroGrid">
+<div>
+<h1>Madagascar Centella Soothing Cream< / h1>
+<p class = "sub">
+جل كريم مهدّئ وخفيف <b>غير لزج< / b> يساعد على ترطيب البشرة وتهدئة الاحمرار الظاهر
+ويدعم <b>حاجز البشرة< / b>—مناسب للبشرة الحساسة والعادية.
+< / p>
+
+<div class = "priceCard" aria - label = "Price card">
+<div class = "prices">
+<div class = "now">
+<span class = "val" id = "priceNow">السعر 1253 < / span >
+<span class = "cur">جنيه< / span>
+< / div>
+<div style = "text-align:left">
+<div class = "old"><span id = "priceOld">بدلا من 1650 < / span > جنيه< / div>
+< / div>
+< / div>
+
+<div class = "save">
+<span class = "hot">خصم < span id = "discPct">31 < / span > % 🔥< / span>
+<span>وفّرت <b> < span id = "saveAmt">397 < / span > < / b> جنيه< / span>
+<span>• حجم < b>75ml< / b>< / span>
+< / div>
+
+<div class = "miniGrid" aria - label = "Highlights">
+<div class = "mini">🌿 سنتيلا مهدّئة<span>تهدئة + راحة< / span>< / div>
+<div class = "mini">🧱 دعم الحاجز<span>سيراميد / دهون< / span>< / div>
+<div class = "mini">💧 ترطيب<span>قوام جل خفيف< / span>< / div>
+<div class = "mini">❄️ إحساس تبريد<span>مناسب للاحمرار< / span>< / div>
+< / div>
+
+<div class = "whyInPrice" aria - label = "Why buy from us">
+<h3>ليه تشتري من ToYou؟< / h3>
+<ul class = "whyList">
+<li>✅ أصلي 100 % من مصادر موثوقة.< / li>
+<li>🚚 شحن سريع + تغليف آمن.< / li>
+<li>💬 دعم واتساب لاختيار روتين مناسب.< / li>
+<li>🎁 عروض وباقات توفير باستمرار.< / li>
+< / ul>
+< / div>
+< / div>
+< / div>
+
+<div class = "gallery" aria - label = "Gallery">
+<div class = "mainShot" id = "mainShot" title = "اضغط للتكبير">
+<span class = "mainHint">🔍 اضغط للتكبير< / span>
+<img id = "mainImg"
+    src = "https://i.postimg.cc/Dw0VfhH4/7ef0440a1bad497828ca52bd3392ef3b.jpg"
+    alt = "SKIN1004 Madagascar Centella Soothing Cream"
+    loading = "eager">
+    < / div>
+
+    <div class = "thumbs" id = "thumbs" aria - label = "Thumbnails">
+    <div class = "thumb" aria - current = "true" data - src = "https://i.postimg.cc/Dw0VfhH4/7ef0440a1bad497828ca52bd3392ef3b.jpg">
+    <img src = "https://i.postimg.cc/Dw0VfhH4/7ef0440a1bad497828ca52bd3392ef3b.jpg" alt = "صورة 1" loading = "lazy">
+    < / div>
+    <div class = "thumb" data - src = "https://i.postimg.cc/QdCLNDwb/images.avif">
+    <img src = "https://i.postimg.cc/QdCLNDwb/images.avif" alt = "صورة 2" loading = "lazy">
+    < / div>
+    <div class = "thumb" data - src = "https://i.postimg.cc/qvqfBrSC/photo_٢٠٢٥_١٠_٣١_١٧_٣١_٥٩.jpg">
+    <img src = "https://i.postimg.cc/qvqfBrSC/photo_٢٠٢٥_١٠_٣١_١٧_٣١_٥٩.jpg" alt = "صورة 3" loading = "lazy">
+    < / div>
+    <div class = "thumb" data - src = "https://i.postimg.cc/W1zRpVCr/photo_٢٠٢٥_١٠_٣١_١٧_٣٢_٠١.jpg">
+    <img src = "https://i.postimg.cc/W1zRpVCr/photo_٢٠٢٥_١٠_٣١_١٧_٣٢_٠١.jpg" alt = "صورة 4" loading = "lazy">
+    < / div>
+    <div class = "thumb" data - src = "https://i.postimg.cc/jS2VqTmP/photo_٢٠٢٥_١٠_٣١_١٧_٣٣_٤٦.jpg">
+    <img src = "https://i.postimg.cc/jS2VqTmP/photo_٢٠٢٥_١٠_٣١_١٧_٣٣_٤٦.jpg" alt = "صورة 5" loading = "lazy">
+    < / div>
+    <div class = "thumb" data - src = "https://i.postimg.cc/fRy4Wspj/photo_٢٠٢٥_١٠_٣١_١٧_٣٣_٤٨.jpg">
+    <img src = "https://i.postimg.cc/fRy4Wspj/photo_٢٠٢٥_١٠_٣١_١٧_٣٣_٤٨.jpg" alt = "صورة 6" loading = "lazy">
+    < / div>
+    < / div>
+    < / div>
+
+    < / div>
+    < / div>
+    < / section>
+
+    <section class = "section toneA" aria - label = "About">
+    <div class = "sectionHeader">
+    <div>
+    <h2>بيعمل إيه الكريم ده؟< / h2>
+    <p>تهدئة + ترطيب + دعم للحاجز بقوام جل خفيف< / p>
+    < / div>
+    < / div>
+
+    <div class = "sectionBody">
+    <div class = "grid2">
+    <div class = "card">
+    <b style = "display:block; margin-bottom:6px;">🌿 تهدئة سريعة وإحساس تبريد< / b>
+    <ul class = "list">
+    <li>مناسب لو بشرتك بتتحسّس بسرعة أو فيها احمرار ظاهر.< / li>
+    <li>قوام جل كريم <b>غير لزج< / b> يمتص بسرعة ويسيّب لمعة صحية خفيفة.< / li>
+    <li>يساعد على الحفاظ على توازن البشرة اليومي.< / li>
+    < / ul>
+    < / div>
+
+    <div class = "card">
+    <b style = "display:block; margin-bottom:6px;">🧱 دعم حاجز البشرة< / b>
+    <ul class = "list">
+    <li>يحتوي على مكونات داعمة للحاجز زي <b>Ceramide< / b> +<b>Cholesterol< / b>(مذكورة في وصف المنتج). < / li>
+    <li>ترطيب لطيف مع مكونات مرطّبة مثل <b>Trehalose< / b> و<b>Sodium Hyaluronate< / b>.< / li>
+    <li>مذكور في مصادر ريتايل إنه غنيّ بـ < b>72 % Centella< / b> و<b>سيراميد نباتي< / b> لدعم الحاجز.< / li>
+    < / ul>
+    < / div>
+    < / div>
+    < / div>
+    < / section>
+
+    <section class = "section toneB" aria - label = "How to use">
+    <div class = "sectionHeader">
+    <div>
+    <h2>طريقة الاستخدام< / h2>
+    <p>روتين بسيط… ونتيجة أحسن< / p>
+    < / div>
+    < / div>
+    <div class = "sectionBody">
+    <div class = "grid2">
+    <div class = "card">
+    <ul class = "list">
+    <li>بعد الغسول(وتونر / سيروم لو موجود) : خدي كمية مناسبة.< / li>
+    <li>وزّعي على الوجه والرقبة، ودلّكي بلطف لحد ما يمتص.< / li>
+    <li>صباحًا ومساءً حسب احتياج بشرتك.< / li>
+    <li>بالنهار : كمّلي بواقي شمس.< / li>
+    < / ul>
+    < / div>
+    <div class = "card">
+    <b style = "display:block; margin-bottom:6px;">💡 نصائح عامة< / b>
+    <ul class = "list">
+    <li>لو بشرتك دهنية / مختلطة: طبقة خفيفة بتكفي.< / li>
+    <li>لو ناشفة : زوّدي الكمية أو استخدمي طبقتين خفاف.< / li>
+    <li>للاحمرار : استخدميه على بشرة رطبة شوية(بعد التونر) لتحسين الترطيب.< / li>
+    <li>جرّبي اختبار حساسية لأول مرة على جزء صغير.< / li>
+    < / ul>
+    < / div>
+    < / div>
+    < / div>
+    < / section>
+
+    <section class = "section toneC" aria - label = "FAQ">
+    <div class = "sectionHeader">
+    <div>
+    <h2>أسئلة شائعة< / h2>
+    <p>اضغطي + للفتح و - للقفل< / p>
+    < / div>
+    < / div>
+    <div class = "sectionBody">
+
+    <details>
+    <summary>
+    <span>هل مناسب للبشرة الحساسة؟< / span>
+    <span class = "faqIcon" aria - hidden = "true">< / span>
+    < / summary>
+    <div class = "detailBody">أيوه—موجه للتهدئة ودعم الحاجز، ومناسب للحساسة والعادية.لو بشرتك شديدة الحساسية اعملي اختبار حساسية.< / div>
+    < / details>
+
+    <details>
+    <summary>
+    <span>قوامه تقيل ولا خفيف؟< / span>
+    <span class = "faqIcon" aria - hidden = "true">< / span>
+    < / summary>
+    <div class = "detailBody">قوام جل كريم خفيف وغير لزج وسريع الامتصاص، مناسب للناس اللي بتكره الكريمات الثقيلة.< / div>
+    < / details>
+
+    <details>
+    <summary>
+    <span>ينفع مع البشرة الدهنية؟< / span>
+    <span class = "faqIcon" aria - hidden = "true">< / span>
+    < / summary>
+    <div class = "detailBody">ينفع جدًا—خصوصًا لو محتاج ترطيب بدون إحساس دهني.اكتفي بطبقة خفيفة.< / div>
+    < / details>
+
+    <details>
+    <summary>
+    <span>أستخدمه إمتى في الروتين؟< / span>
+    <span class = "faqIcon" aria - hidden = "true">< / span>
+    < / summary>
+    <div class = "detailBody">بعد الغسول والتونر / السيروم، وقبل واقي الشمس صباحًا.< / div>
+    < / details>
+
+    <details>
+    <summary>
+    <span>هل ينفع تحت المكياج؟< / span>
+    <span class = "faqIcon" aria - hidden = "true">< / span>
+    < / summary>
+    <div class = "detailBody">آه—عشان سريع الامتصاص وبيسيب ملمس مريح، استني دقيقة قبل الفاونديشن.< / div>
+    < / details>
+
+    <details>
+    <summary>
+    <span>هل بيساعد على تقوية الحاجز؟< / span>
+    <span class = "faqIcon" aria - hidden = "true">< / span>
+    < / summary>
+    <div class = "detailBody">وصف المنتج بيذكر مكونات داعمة للحاجز(زي السيراميد / الكوليسترول)، وده مناسب لدعم الحاجز مع الترطيب المنتظم.< / div>
+    < / details>
+
+    < / div>
+    < / section>
+
+    <section class = "section toneB" aria - label = "Reviews">
+    <div class = "sectionHeader">
+    <div>
+    <h2>تقييمات العملاء < / h2>
+
+    < / div>
+    < / div>
+
+    <div class = "sectionBody">
+    <div class = "reviewsGrid">
+    <div class = "review"><div class = "rTop"><div class = "stars">⭐️⭐️⭐️⭐️⭐️< / div><div class = "rName">مريم • بشرة حساسة< / div>< / div><p class = "rText">أول مرة أحس بتهدئة فعلًا… والملمس خفيف ومش بيلزّق.< / p>< / div>
+    <div class = "review"><div class = "rTop"><div class = "stars">⭐️⭐️⭐️⭐️⭐️< / div><div class = "rName">سارة • مختلطة< / div>< / div><p class = "rText">تحت المكياج ممتاز… بيترطب من غير ما يزيت.< / p>< / div>
+    <div class = "review"><div class = "rTop"><div class = "stars">⭐️⭐️⭐️⭐️< / div><div class = "rName">نور • دهنية< / div>< / div><p class = "rText">قوام جل لطيف… مناسب للصيف جدًا.< / p>< / div>
+    <div class = "review"><div class = "rTop"><div class = "stars">⭐️⭐️⭐️⭐️⭐️< / div><div class = "rName">هبة • حساسة< / div>< / div><p class = "rText">الإحمرار بيهدى مع الاستمرار… تحفة كروتين يومي.< / p>< / div>
+    <div class = "review"><div class = "rTop"><div class = "stars">⭐️⭐️⭐️⭐️< / div><div class = "rName">شيماء • عادية< / div>< / div><p class = "rText">ترطيب حلو جدًا وقوامه سريع الامتصاص.< / p>< / div>
+    <div class = "review"><div class = "rTop"><div class = "stars">⭐️⭐️⭐️⭐️⭐️< / div><div class = "rName">دينا • مختلطة< / div>< / div><p class = "rText">مش بيسد المسام… وريحته مش موجودة تقريبًا.< / p>< / div>
+
+    <div class = "review"><div class = "rTop"><div class = "stars">⭐️⭐️⭐️⭐️< / div><div class = "rName">آية • دهنية< / div>< / div><p class = "rText">بينفع لو عايزة ترطيب خفيف من غير طبقة تقيلة.< / p>< / div>
+    <div class = "review"><div class = "rTop"><div class = "stars">⭐️⭐️⭐️⭐️⭐️< / div><div class = "rName">رنا • حساسة< / div>< / div><p class = "rText">بعد يوم طويل… بحطه وبحس براحة وهدوء للبشرة.< / p>< / div>
+    <div class = "review"><div class = "rTop"><div class = "stars">⭐️⭐️⭐️⭐️< / div><div class = "rName">بسنت • عادية< / div>< / div><p class = "rText">ممتاز قبل النوم… صباحًا بشرتي بتبقى مرتاحة.< / p>< / div>
+    <div class = "review"><div class = "rTop"><div class = "stars">⭐️⭐️⭐️⭐️⭐️< / div><div class = "rName">لوجي • مختلطة< / div>< / div><p class = "rText">بيساعدني لما البشرة تتعب من الجو أو الشمس.< / p>< / div>
+    <div class = "review"><div class = "rTop"><div class = "stars">⭐️⭐️⭐️⭐️< / div><div class = "rName">سلمى • دهنية< / div>< / div><p class = "rText">مرطب خفيف جدًا… مش بيزوّد لمعان.< / p>< / div>
+    <div class = "review"><div class = "rTop"><div class = "stars">⭐️⭐️⭐️⭐️⭐️< / div><div class = "rName">يارا • حساسة< / div>< / div><p class = "rText">بستخدمه بعد تقشير لطيف… بيهدّي بسرعة.< / p>< / div>
+
+    <div class = "review"><div class = "rTop"><div class = "stars">⭐️⭐️⭐️⭐️< / div><div class = "rName">منة • عادية< / div>< / div><p class = "rText">الترطيب ثابت ومش بيحسسني بتقل.< / p>< / div>
+    <div class = "review"><div class = "rTop"><div class = "stars">⭐️⭐️⭐️⭐️⭐️< / div><div class = "rName">رانيا • مختلطة< / div>< / div><p class = "rText">حلو قوي كطبقة قبل واقي الشمس… بيساعد يثبت.< / p>< / div>
+    <div class = "review"><div class = "rTop"><div class = "stars">⭐️⭐️⭐️⭐️< / div><div class = "rName">فاطمة • دهنية< / div>< / div><p class = "rText">لو بتحبي الجل - كريم… ده اختيار ممتاز.< / p>< / div>
+    <div class = "review"><div class = "rTop"><div class = "stars">⭐️⭐️⭐️⭐️⭐️< / div><div class = "rName">جنى • حساسة< / div>< / div><p class = "rText">أحسن حاجة إنه لطيف… ومش بيعمل لسعة.< / p>< / div>
+    <div class = "review"><div class = "rTop"><div class = "stars">⭐️⭐️⭐️⭐️< / div><div class = "rName">شهد • عادية< / div>< / div><p class = "rText">مناسب للي عايز ترطيب يومي من غير تعقيد.< / p>< / div>
+    <div class = "review"><div class = "rTop"><div class = "stars">⭐️⭐️⭐️⭐️⭐️< / div><div class = "rName">إيمان • مختلطة< / div>< / div><p class = "rText">إحساس تبريد لطيف… وبشرة أنعم مع الوقت.< / p>< / div>
+    < / div>
+    < / div>
+    < / section>
+
+    <footer>ToYou - 2013 < / footer >
+    < / div>
+
+    <div class = "lb" id = "lb" aria - hidden = "true">
+    <div class = "lbBox" role = "dialog" aria - label = "Image preview">
+    <button class = "lbClose" id = "lbClose" aria - label = "Close">×< / button>
+    <div class = "lbNav lbPrev" id = "lbPrev" aria - label = "Previous">›< / div>
+    <div class = "lbNav lbNext" id = "lbNext" aria - label = "Next">‹< / div>
+    <img class = "lbImg" id = "lbImg" src = "" alt = "Preview">
+    < / div>
+    < / div>
+
+    <script>
+    /* =========================
+       1) حط السعر قبل/بعد هنا
+       2) الجاليري: لما تضغط على thumb يتبدّل مكان الصورة الكبيرة ✅
+       ========================= */
+
+       // ✅ عدّل السعرين دول فقط:
+    const PRICE_AFTER = 949;
+const PRICE_BEFORE = 1050;
+
+// ✅ صور المنتج الجديدة
+const IMAGES = [
+    "https://i.postimg.cc/Dw0VfhH4/7ef0440a1bad497828ca52bd3392ef3b.jpg",
+    "https://i.postimg.cc/QdCLNDwb/images.avif",
+    "https://i.postimg.cc/qvqfBrSC/photo_٢٠٢٥_١٠_٣١_١٧_٣١_٥٩.jpg",
+    "https://i.postimg.cc/W1zRpVCr/photo_٢٠٢٥_١٠_٣١_١٧_٣٢_٠١.jpg",
+    "https://i.postimg.cc/jS2VqTmP/photo_٢٠٢٥_١٠_٣١_١٧_٣٣_٤٦.jpg",
+    "https://i.postimg.cc/fRy4Wspj/photo_٢٠٢٥_١٠_٣١_١٧_٣٣_٤٨.jpg"
+];
+
+// ----- السعر (حساب الخصم والوفير)
+const priceNowEl = document.getElementById("priceNow");
+const priceOldEl = document.getElementById("priceOld");
+const discPctEl = document.getElementById("discPct");
+const saveAmtEl = document.getElementById("saveAmt");
+
+function fmt(n) {
+    try { return new Intl.NumberFormat("ar-EG").format(n); }
+    catch (e) { return String(n); }
+}
+
+if (Number(PRICE_AFTER) > 0 && Number(PRICE_BEFORE) > 0 && PRICE_BEFORE > PRICE_AFTER) {
+    const save = PRICE_BEFORE - PRICE_AFTER;
+    const pct = Math.round((save / PRICE_BEFORE) * 100);
+
+    priceNowEl.textContent = fmt(PRICE_AFTER);
+    priceOldEl.textContent = fmt(PRICE_BEFORE);
+    discPctEl.textContent = pct;
+    saveAmtEl.textContent = fmt(save);
+}
+else {
+    // placeholders واضحة
+    priceNowEl.textContent = "PRICE_AFTER";
+    priceOldEl.textContent = "PRICE_BEFORE";
+    discPctEl.textContent = "—";
+    saveAmtEl.textContent = "—";
+}
+
+// ----- السواب + اللايتبوكس
+let idx = 0;
+const mainImg = document.getElementById("mainImg");
+const mainShot = document.getElementById("mainShot");
+const thumbs = Array.from(document.querySelectorAll("#thumbs .thumb"));
+
+function setActive(i) {
+    idx = i;
+    mainImg.src = IMAGES[i];
+    thumbs.forEach((t, k) = > t.setAttribute("aria-current", k == = i ? "true" : "false"));
+}
+thumbs.forEach((t, i) = > t.addEventListener("click", () = > setActive(i)));
+
+// Lightbox
+const lb = document.getElementById("lb");
+const lbImg = document.getElementById("lbImg");
+const lbClose = document.getElementById("lbClose");
+const lbPrev = document.getElementById("lbPrev");
+const lbNext = document.getElementById("lbNext");
+
+function openLB() {
+    lbImg.src = IMAGES[idx];
+    lb.classList.add("open");
+    lb.setAttribute("aria-hidden", "false");
+    document.body.style.overflow = "hidden";
+}
+function closeLB() {
+    lb.classList.remove("open");
+    lb.setAttribute("aria-hidden", "true");
+    document.body.style.overflow = "";
+}
+function prev() {
+    setActive((idx - 1 + IMAGES.length) % IMAGES.length);
+    lbImg.src = IMAGES[idx];
+}
+function next() {
+    setActive((idx + 1) % IMAGES.length);
+    lbImg.src = IMAGES[idx];
+}
+
+mainShot.addEventListener("click", openLB);
+lbClose.addEventListener("click", closeLB);
+lbPrev.addEventListener("click", prev);
+lbNext.addEventListener("click", next);
+lb.addEventListener("click", (e) = > { if (e.target == = lb) closeLB(); });
+
+window.addEventListener("keydown", (e) = > {
+    if (!lb.classList.contains("open")) return;
+    if (e.key == = "Escape") closeLB();
+    if (e.key == = "ArrowLeft") next();
+    if (e.key == = "ArrowRight") prev();
+});
+< / script>
+< / body>
+< / html>
