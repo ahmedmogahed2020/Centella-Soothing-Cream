@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html lang="ar" dir="rtl">
 <head>
@@ -462,14 +463,17 @@
             <div class="priceCard" aria-label="Price card">
               <div class="prices">
                 <div class="now">
-                  <span class="val" id="priceNow">السعر 1253</span>
+                  <span class="val" id="priceNow">السعر 1049</span>
                   <span class="cur">جنيه</span>
                 </div>
                 <div style="text-align:left">
+                  <div class="old"><span id="priceOld">بدلا من 1650</span> جنيه</div>
                 </div>
               </div>
 
               <div class="save">
+                <span class="hot">خصم <span id="discPct">57</span>% 🔥</span>
+                <span>وفّرت <b><span id="saveAmt">601</span></b> جنيه</span>
                 <span>• حجم <b>75ml</b></span>
               </div>
 
@@ -701,7 +705,7 @@
        ========================= */
 
     // ✅ عدّل السعرين دول فقط:
-    const PRICE_AFTER = 1253;
+    const PRICE_AFTER = 1049;
     const PRICE_BEFORE = 1650;
 
     // ✅ صور المنتج الجديدة
